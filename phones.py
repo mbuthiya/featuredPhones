@@ -18,3 +18,7 @@ def count_clicks(user_inputs):
                 clicks = clicks + int(key)
 
     return clicks
+
+input_sentence = get_input()
+num_of_clicks = str(count_clicks(input_sentence))
+print(f"You need {num_of_clicks} number of clicks")
